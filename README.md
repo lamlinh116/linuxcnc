@@ -36,4 +36,9 @@ Need to apply some patch to avoid error when compile.
 Go to repo/build  
  $ source xn-environment  
  $ ./build-linuxcnc.sh  
-Install .deb file in source folder  
+Install .deb file in source folder 
+
+# Reference links
+Xenomai: https://gitlab.denx.de/Xenomai/xenomai/-/wikis/home  
+LinuxCNC: https://github.com/LinuxCNC/linuxcnc  
+Linux kernel archive: https://cdn.kernel.org/pub/linux/kernel/v4.x/  
