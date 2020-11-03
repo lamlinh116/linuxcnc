@@ -1,3 +1,6 @@
+# Descriptions
+This work is aimed for developing LinuxCNC on xenomai-3x enviroment.  
+
 # Folder structure:
 ./  
  |_repo  
@@ -12,6 +15,7 @@
  |_conf  
  &nbsp;&nbsp;|_ipipe-xxx.patch  
  &nbsp;&nbsp;|_config-xxx  
+ &nbsp;&nbsp;|_emc2-build-xenomai-3x.patch  
 
 Symlink can be done simply by: ln -sf 'source_folder' 'symlink_name'  
 	
@@ -28,10 +32,10 @@ Go to repo/build
 Install .deb file in source folder.  
  
 # Build and install linuxcnc
-Need to apply some patch to avoid error when compile.
- $ Go to linuxcnc folder 
- $ Copy emc2-build.patch from conf/ folder to linuxcnc folder   
- $ git apply emc2-build.patch  
+Need to apply some patch to avoid error when compile.  
+ $ Go to linuxcnc folder  
+ $ Copy emc2-build-xenomai-3x.patch from conf/ folder to linuxcnc folder   
+ $ git apply emc2-build-xenomai-3x.patch  
 
 Go to repo/build  
  $ source xn-environment  
