@@ -42,6 +42,13 @@ Go to repo/build
  $ ./build-linuxcnc.sh  
 Install .deb file in source folder 
 
+# Tips for setup hardware LinuxCNC (x86)
+ * Disable Hyper Threading  
+ * Disable SMI  
+ * Isolate cpu core from grub:  
+&nbsp;&nbsp;&nbsp;$ sudo vi /etc/default/grub  
+&nbsp;&nbsp;&nbsp;$ Add isolcpus=2,3 to GRUB_CMDLINE_LINUX_DEFAULT for disabling core 2,3  
+
 # Reference links
 Xenomai: https://gitlab.denx.de/Xenomai/xenomai/-/wikis/home  
 LinuxCNC: https://github.com/LinuxCNC/linuxcnc  
