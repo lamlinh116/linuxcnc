@@ -3,5 +3,5 @@ CUR_DIR=`pwd`
 export xenomai_root=${CUR_DIR}/../xenomai
 export linux_root=${CUR_DIR}/../linux
 export linuxcnc_root=${CUR_DIR}/../linuxcnc
-export ipipe_patch=${CUR_DIR}/../../source/ipipe-core-4.19.140-cip33-x86-14.patch
-export linux_config=${CUR_DIR}/../../source/config-4.19.140-xenomai-debian10.cip33.14
+export ipipe_patch=${CUR_DIR}/../../conf/ipipe-core-4.19.140-cip33-x86-14.patch
+export linux_config=${CUR_DIR}/../../conf/config-4.19.140-xenomai-debian10.cip33.14

@@ -34,3 +34,7 @@
 
 # Others
 deb/
+repo/linux
+repo/xenomai
+repo/linuxcnc
+.source
