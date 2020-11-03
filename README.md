@@ -8,7 +8,7 @@ This work is aimed for developing LinuxCNC on xenomai-3x enviroment.
  &nbsp;&nbsp;|_linux-->symlink to ../source_folder/liunux-xxx  
  &nbsp;&nbsp;|_xenomai-->symlink to ../source_folder/xenomai-xxx  
  &nbsp;&nbsp;|_linuxcnc-->symlink to ../source_folder/linuxcnc-xxx  
- |_source_folder
+ |_source_folder  
  &nbsp;&nbsp;|_linux/linux-xxx  
  &nbsp;&nbsp;|_xenomai/xenomai-xxx  
  &nbsp;&nbsp;|_emc2/linuxcnc-xxx  
