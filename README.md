@@ -1,5 +1,4 @@
-# linuxcnc
-Folder structure:
+#Folder structure:
 ./
  |_repo
    |_build
@@ -13,11 +12,11 @@ Folder structure:
    |_ipipe-xxx.patch
    |_config-xxx
  
- * Dependencies:
+#Dependencies:
  Go to repo/build
  Check DEPS file.
  
- * Build and install xenomai
+#Build and install xenomai
  - Go to repo/build
  $ source xn-environment
  $ ./prepare-linux-ipipe.sh
@@ -25,7 +24,7 @@ Folder structure:
  $ ./build-xenomai.sh
  - Install .deb file in source folder
  
- * Build and install linuxcnc
+#Build and install linuxcnc
  - Go to repo/build
  $ source xn-environment
  $ ./build-linuxcnc.sh
